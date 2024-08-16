@@ -3,4 +3,4 @@ COPY . .
 RUN mvn clean package -DskipTests
 FROM openjdk:17.0.1-jdk
 EXPOSE 8080
-ENTRYPOINT ["java","-jar" , "demo.jar"]
+ENTRYPOINT ["java","-jar"]
